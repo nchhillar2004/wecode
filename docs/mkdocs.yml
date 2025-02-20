@@ -1,0 +1,8 @@
+site_name: WeCode
+nav:
+  - Home: index.md
+  - About: about.md
+  - API: api.md
+  - App: app.md
+  - Core: core.md
+  - Go-server: go-server.md
