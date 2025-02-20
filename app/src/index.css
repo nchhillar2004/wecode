@@ -1,0 +1,33 @@
+:root{
+    --background-color: #ffffff;
+    --foreground-color: #000000;
+    --border-color: #808080;
+    --primary-color: #801010;
+}
+
+[data-theme="dark"]{
+    --background-color: #101010;
+    --foreground-color: #ffffff;
+    --border-color: #252525;
+    --primary-color: #801010;
+}
+
+html, body{
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    background: var(--background-color);
+    color: var(--foreground-color);
+    margin: 0px;
+}
+
+a{
+    color: var(--foreground-color);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.link{
+    color: #105099;
+}
