@@ -1,0 +1,7 @@
+spring.application.name=core
+
+spring.datasource.url=jdbc:mysql://localhost:3306/wecode_db
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.datasource.username=
+spring.datasource.password=

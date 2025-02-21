@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.github.nchhillar2004.wecode.core.model.Question;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173"})
 public class ChallengesController{
     @Autowired
     public Questions questions;
